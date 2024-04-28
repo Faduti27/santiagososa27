@@ -1,0 +1,266 @@
+header{
+   background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+header ul{
+    height: 50px;
+    padding: 120px 10px 10px 10px;
+list-style: none;
+display: flex;
+flex-direction: row;
+font-size: 30px;
+align-items: center;
+justify-content: center;
+}
+header ul li{
+    margin: 50px;
+    background-color: green;
+    border-radius: 15%;
+    padding: 10px;
+}
+header ul a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    width: 250px;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+color:white;
+font-size: 100px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color: white;
+font-size: 100px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    padding: 10px 50px 10px 50px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor{
+display: flex; 
+flex-direction: column;
+width: 100%;
+margin: 10px 0 10px 0;
+background-color: green;
+border-radius: 3%;
+padding: 50px 0 100px 0;   
+}
+.scontenedor{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.scontenedor img{
+    width: 420px;
+    border-radius: 50%;
+}
+.nuevo-contenedor {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: green;
+    border-radius: 3%;
+    padding: 50px 0px 50px 0px;
+    margin: 10px 0 50px 0;
+}
+.nuevo-contenedor img {
+    background-color: green;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.nuevo-contenedor h6{
+    font-size: 50px;
+    padding-bottom: 100px;
+}
+.nuevo-contenedor ul {
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    margin: 10px 50px 10px 50px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column
+}
+.carousel-caption h5{
+    font-size: 50px;
+    color: white;
+    background-color: green;
+    border-style: ridge;
+}
+.carousel-caption p{
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border-style: ridge;
+
+}
+.imagenestips img {
+    border-radius: 5%;
+    width: 500px;
+    height: 400px;
+
+}
+.nuevo-contenedor li {
+    padding: 50px 0 50px 0;
+}
+
+.utilidades {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    background-color: green;
+    padding-top: 90px;
+   border-radius: 5%;
+   max-width: 100%;
+}
+.sutilidades h1{
+    color: white;
+    font-size: 50px;
+}
+.sutilidades img{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+.utilidades ul {
+    list-style-type: none;
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+    margin: 10px 50px 10px 50px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.utilidades li {
+font-size: 50px;
+margin: 20px;
+padding: 50px 0 50px 0;
+color: white;
+list-style-type: none;
+flex-wrap: wrap;
+}
+.sutilidades2 img{
+    border-radius: 6%;
+    width: 300px;
+    height: 300px;
+}
+.utilidades button {
+    background-color: rgb(0, 83, 35);
+    border: none;
+    border-radius: 20%;
+    color: #ffffff;  
+}
+.utilidades button:hover{
+ background-color: #033305;
+}
+.oportunidades {
+    text-align: center;
+    background-color: green;
+    padding-top: 90px;
+   border-radius: 5%;
+   max-width: 100%;
+   color: white;
+}
+.oportunidades img{
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+}
+.conteineropor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   justify-content: space-around;
+}
+.conteineropor img{
+    width: 300px;
+    height: 200px;
+    border-radius: 3%;
+    padding-bottom: 10px;
+}
+.conteineropor li {
+    font-size: 50px;
+    list-style-type: none;
+}
+.oportunidades button {
+    background-color: rgb(0, 83, 35);
+    border: none;
+    border-radius: 20%;
+    color: #ffffff; 
+}
+.oportunidades button:hover {
+    background-color: #033305;
+}
+.ultimo {
+    text-align: center;
+    background-color: green;
+    padding-top: 90px;
+   border-radius: 5%;
+   max-width: 100%;
+   color: white;
+ }
+ .ultimo li{
+    font-size: 50px;
+    list-style-type: none;
+ }
+ .sultimo ul{
+    list-style-type: none;
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+    margin: 10px 50px 10px 50px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+ }
+ .sultimo li {
+    font-size: 50px;
+margin: 20px;
+padding: 50px 0 50px 0;
+color: white;
+list-style-type: none;
+flex-wrap: wrap;
+ }
+ .ultimo img {
+    border-radius: 50%;
+    height: 300px;
+    width: 400px;
+    padding: 20px 0 20px 0;
+ }
+ .ultimo a{
+    text-decoration: none;
+    color: white;
+ }
+ .ultimo button{
+    background-color: rgb(0, 83, 35);
+    border: none;
+    border-radius: 20%;
+    color: #ffffff;
+ }
+ .ultimo button:hover{
+    background-color: #033305;
+ }
+ .ultimo h1{
+    padding-top: 200px;
+    font-size: 100px;
+ }
